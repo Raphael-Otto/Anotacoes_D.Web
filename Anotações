@@ -1,0 +1,54 @@
+Endpoints: https://localhost:4000/
+
+GET    /Categorias/     => Retorna todas as categorias
+POST   /Categorias/     => Adicionar uma categoria > Baseado num JSON
+GET    /Categorias/:id  => Retorna uma categoria com id === :id
+PUT    /Categorias/:id  _\ Editam  ,,   ,,   ,,   ,,   ,,   ,, (JSON)
+PATCH  /Categorias/:id   /
+DELETE /Categorias/:id  => Exclui a categoria com id === :id
+
+
+
+API: Application Programming Interface
+
+ {"Categorias":[]}
+
+
+
+AXIOS:
+
+ Categorias = axios.get('https://localhost/4000/Categorias')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+( ͡° ͜ʖ ͡°)
