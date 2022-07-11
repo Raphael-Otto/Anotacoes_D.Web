@@ -19,6 +19,21 @@ AXIOS:
 
  Categorias = axios.get('https://localhost/4000/Categorias')
 
+ === Times ===     == Jogadores ==
+ | #id       |-    | #id         |
+ | name      |  \  | name        |
+ =============    -| timeId (FK) |
+                   ===============
+  1, Time 1         
+  2, Time 2        1, Jogador 1, 1
+
+
+<select v-model = "timeId">
+  <option value = "1"> Time 1 </option>
+  <option value = "2"> Time 2 </option>
+ 
+  <option v-for="time in times" :key="time.id" value="time.id"> {{time.nome}} </option>
+
 
 
 
